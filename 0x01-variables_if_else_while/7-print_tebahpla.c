@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - program that prints the lowercase of letters n the reverse
  * Only the putchar function can be used
- * Return: 
+ * Return: 0
  */
 
 int main(void)
