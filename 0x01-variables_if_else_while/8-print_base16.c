@@ -17,5 +17,5 @@ putchar(d);
 for (low = 'a'; low <= 'f'; low++)
 putchar(low);
 putchar('\n');
-retur (0);
+return (0);
 }
