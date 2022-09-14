@@ -1,22 +1,22 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
- * main - program that prints _putchar.
- *
- *
- * Return: init
+ * main - print the putchar
+ * Return: always 0
  */
 
 int main(void)
 {
-int n = 0;
-char str_put[8] = "_putchar"
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-while (n < 8)
-{
-putchar(str_put[n]);
-n += 1;
-}
-putchar('\n');
-return (0);
+	return (0);
+
 }
