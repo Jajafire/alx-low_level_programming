@@ -2,8 +2,7 @@
 
 /**
  * main - alphabet
- * print_alphabet_x10 - print a to z ten times
- * Return: 0
+ * Print_alphabet_x10 - print a to z ten times
  */
 
 void print_alphabet_x10(void)
