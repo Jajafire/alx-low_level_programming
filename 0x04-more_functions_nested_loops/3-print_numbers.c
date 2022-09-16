@@ -2,15 +2,18 @@
 
 /**
  * print_numbers - prints numbers
+ *
+ * Return: The numbers since 0 up to 9
  */
 
 void print_numbers(void)
 {
-	int i;
+int x;
 
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+for (i = 0; i <= 9; i++)
+{
+_putchar(i + '0');
+}
+
+_putchar('\n');
 }
