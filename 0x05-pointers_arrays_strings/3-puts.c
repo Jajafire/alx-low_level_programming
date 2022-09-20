@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - prints a string to stdout
+ * _puts - prints string to stdout
  * @str: pointer to string to be printed
  */
 
 void _puts(char *str)
 {
-	int x;
+	int i;
 
-	for (x = 0; str[x] != '\0'; x++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[x]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
