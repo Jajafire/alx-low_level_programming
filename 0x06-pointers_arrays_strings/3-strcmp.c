@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compares two strings
- * @s1 - first string data to compare
- * @s2 - second data to compare
+ * @s1: first string data to compare
+ * @s2: second data to compare
  *
  * Return: less than 0 if s1 is less than s2, 0 if equal,
  * more than 0 if s1 is greater than s2
